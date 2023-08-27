@@ -27,7 +27,7 @@ class PDFController extends Controller
         $fpdf->Cell(200,15,'teste',0,0,'L');
         $fpdf->Ln();
         $fpdf->Output('teste.pdf', 'I');
-        exit;
+        exit();
     }
 }
 
